@@ -24,8 +24,8 @@ int tilt;                        //Tilt position (motor degrees)
 
 void setup(){
   pinMode(0,OUTPUT);             //setup user LED
-  pinMode(42,OUTPUT);             //set pin D0 as output pin to send signal
-  pinMode(43,OUTPUT);             //set pin D1 as output pin to send signal
+  pinMode(42,OUTPUT);             //set pin D2 as output pin to send signal
+  pinMode(43,OUTPUT);             //set pin D3 as output pin to send signal
   Serial.begin(9600);            //set up serial comm @ 9600 bps
   SetPosition(PAN,DEFAULT_PAN);
   SetPosition(TILT,DEFAULT_TILT);
