@@ -1,7 +1,7 @@
 #define PAN 0        //Pan motor ID 0
 #define TILT 1       //Tilt motor ID 1
-#define FIRE_PIN1 D2  //Pin D0 set as firing pin
-#define FIRE_PIN2 D3  //Pin D1 set as firing pin
+#define FIRE_PIN1 D2  //Pin D2 set as firing pin
+#define FIRE_PIN2 D3  //Pin D3 set as firing pin
 
 #define TILT_RIGHT_LIMIT 1365      //Safety limits on Tilt motor
 #define TILT_LEFT_LIMIT 2048
